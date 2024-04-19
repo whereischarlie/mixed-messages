@@ -10,11 +10,11 @@ const getRandomMessage = () => {
   let randomMessageSelector = Math.floor(Math.random() * 3);
   switch (randomMessageSelector) {
     case 0:
-      return 'did you hear the one about the ' + getRandomItem(subjects) + ' ' + getRandomItem(actions) + ' the ' + getRandomItem(subjects) + ' ' + getRandomItem(settings) + '?';
+      return `did you hear the one about the ${getRandomItem(subjects)} ${getRandomItem(actions)} the ${getRandomItem(subjects)} ${getRandomItem(settings)}?`;
     case 1:
-      return getRandomItem(subjects) + ' ' + getRandomItem(actions) + ' ' + getRandomItem(subjects) + ' ' + getRandomItem(settings) + '.';
+      return `${getRandomItem(subjects)} ${getRandomItem(actions)} ${getRandomItem(subjects)} ${getRandomItem(settings)}.`;
     case 2:
-      return getRandomItem(settings) + ' there are ' + getRandomItem(subjects) + ' ' + getRandomItem(actions) + ' things in the dark.';
+      return `${getRandomItem(settings)} there are ${getRandomItem(subjects)} ${getRandomItem(actions)} things in the dark.`;
   }
 };
 
