@@ -16,6 +16,11 @@ brew install node
 node rmg.js
 ```
 
+## Ideas for improvements
+
+1. Ability to choose different message generators
+2. Ability to provide additional/different inputs for the message generators
+
 ## Contributing
 
 Pull requests are welcome. For major changes, please open an issue first
