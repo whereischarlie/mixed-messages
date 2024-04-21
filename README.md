@@ -4,7 +4,7 @@ Mixed messages is a JavaScript app for outputting a random silly message. This a
 
 ## Installation
 
-Use HomeBrew[https://brew.sh/] to ensure that NodeJS[https://nodejs.org/] is installed.
+Use [HomeBrew](https://brew.sh/) to ensure that [NodeJS](https://nodejs.org/) is installed.
 
 ```bash
 brew install node
