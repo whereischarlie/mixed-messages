@@ -1,6 +1,6 @@
-# Random Message Generator
+# Mixed Messages
 
-Random Message Generator is a JavaScript app for outputting a random joke message.
+Mixed messages is a JavaScript app for outputting a random silly message. This app was built for the JavaScript Syntax Portfolio Project, part of CodeCademy Fullstack Developer Course. 
 
 ## Installation
 
@@ -13,7 +13,7 @@ brew install node
 ## Usage
 
 ```bash
-node rmg.js
+node mixed-messages.js
 ```
 
 ## Ideas for improvements

@@ -12,4 +12,8 @@ const messages = [
   `${getRandomItem(settings)} there are ${getRandomItem(subjects)} ${getRandomItem(actions)} things in the dark.`
 ];
 
-console.log(getRandomItem(messages));
+const mixedMessages = () => {
+  console.log(getRandomItem(messages));
+}
+
+mixedMessages();
